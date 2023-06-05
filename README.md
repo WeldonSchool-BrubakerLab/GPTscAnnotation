@@ -3,12 +3,12 @@ This is a simple tool for single-cell people to gain insights about cell identit
 
 ## Installation
 ```
-pip install gpt_annotation
+pip install gptscannotation
 ```
 
 ## Usage
 ```
-from GPT_annotation import chat_workflow
+from gptscannotation import chat_workflow
 chat_workflow(adata, openaikey, openaikey, cluster_key, organism = 'unknown', tissue = 'unknown', DE_dfs = None, rank_key = None, display_conversation = True, 
                   double_verification = True, prior_knowledge = '', log_counts_layer = None, use_raw = False, ngenes = 20,
                   model_name = 'gpt-4', temperature = 0, top_p = 1, 
