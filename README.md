@@ -9,7 +9,7 @@ pip install gptscannotation
 ## Usage
 ```
 from gptscannotation import chat_workflow
-chat_workflow(adata, openaikey, openaikey, cluster_key, organism = 'unknown', tissue = 'unknown', DE_dfs = None, rank_key = None, display_conversation = True, 
+chat_workflow(adata, openaikey, cluster_key, organism = 'unknown', tissue = 'unknown', DE_dfs = None, rank_key = None, display_conversation = True, 
                   double_verification = True, prior_knowledge = '', log_counts_layer = None, use_raw = False, ngenes = 20,
                   model_name = 'gpt-4', temperature = 0, top_p = 1, 
                   frequency_penalty = 0, presence_penalty = 0, sleep_time = 5, prompt_only = False)
